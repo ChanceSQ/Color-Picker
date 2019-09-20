@@ -9,16 +9,36 @@
   </head>
   <body>
     <h1>Color Selector</h1>
-    <h3>Select values for RGB then click the color to copy HEX code</h3>
+    <h3>Select values for RGB and watch the background change</h3>
+
     <div class="controls">
-      <div class="box" id="red"></div>
-      <input type="range" name="red" min="0" max="255" value="100" />
-
-      <div class="box" id="green"></div>
-      <input type="range" name="green" min="0" max="255" value="100" />
-
-      <div class="box" id="blue"></div>
-      <input type="range" name="blue" min="0" max="255" value="100" />
+      <input
+        class="slider"
+        id="red"
+        type="range"
+        name="red"
+        min="0"
+        max="255"
+        value="100"
+      />
+      <input
+        class="slider"
+        id="green"
+        type="range"
+        name="green"
+        min="0"
+        max="255"
+        value="100"
+      />
+      <input
+        class="slider"
+        id="blue"
+        type="range"
+        name="blue"
+        min="0"
+        max="255"
+        value="100"
+      />
     </div>
   </body>
   <script src="app.js"></script>
